@@ -1,0 +1,24 @@
+
+public class CnstOverload {
+	int id;  
+	String name;  
+	    int age;  
+	    CnstOverload(int i,String n){  
+	    id = i;  
+	    name = n;  
+	    }  
+	    CnstOverload(int i,String n,int a){  
+	    id = i;  
+	    name = n;  
+	    age=a;  
+	    }  
+	    void display(){System.out.println(id+" "+name+" "+age);}  
+	   
+	    public static void main(String args[]){  
+	    Cnstoverlod s1 = new Cnstoverlod(111,"Karan");  
+	    Cnstoverlod s2 = new Cnstoverlod(222,"Aryan",25);  
+	    s1.display();  
+	    s2.display();  
+	   }  
+	 
+}

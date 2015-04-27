@@ -1,0 +1,24 @@
+
+public class ConstOverload {
+	int id;  
+	String name;  
+	    int age;  
+	    ConstOverload(int i,String n){  
+	    id = i;  
+	    name = n;  
+	    }  
+	    ConstOverload(int i,String n,int a){  
+	    id = i;  
+	    name = n;  
+	    age=a;  
+	    }  
+	    void display(){System.out.println(id+" "+name+" "+age);}  
+	   
+	    public static void main(String args[]){  
+	    CnstOverload s1 = new CnstOverload(111,"Karan");  
+	    CnstOverload s2 = new CnstOverload(222,"Aryan",25);  
+	    s1.display();  
+	    s2.display();  
+	   }  
+	 
+}
